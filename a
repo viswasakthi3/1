@@ -1,0 +1,125 @@
+import java.util.ArrayList;
+
+public class Employee {
+
+static Scanner input = new Scanner(System.in);
+
+String empName;
+
+int empAge;
+
+int empId;
+
+Employee (String empName, int empAge, int empId) {
+
+this.empName=empName;
+
+this.empAge-empAge;
+
+this.empId=empId;
+
+}
+
+Employee()
+
+}
+
+I
+
+ArrayList <Employee> empList = new ArrayList<>();
+
+ArrayList <Integer> empIdList = new ArrayList<>();
+
+public static void main(String[] args) {
+
+Employee empObject = new Employee();
+
+boolean flag = true;
+
+
+
+
+
+
+boolean flag true;
+
+while(flag)
+
+{
+
+empObject.logIn (empObject);
+
+System.out.println("Do u want to enter another employee details: If yes enter 1 or el int option = input.nextInt();
+
+if (option == 2)
+
+flag = false; System.exit(0);
+
+}
+
+empObject.numCheck (empObject);
+
+}
+
+public void logIn (Employee empObject)
+
+System.out.println("Enter the employee name: "); empName input.next(); = System.out.println("Enter the employee age: ");
+
+empAge = input.nextInt();
+
+//empList.add(empObject);
+
+empObject.numCheck (empObject);
+
+}
+
+public void numCheck (Employee empObject) {
+
+the employee ID: ");
+
+empId input.nextInt(); if(empIdList.contains(empId))
+
+I
+
+System.out.println("Already exist, Try another");
+
+
+
+
+empName = input.next();
+
+System.out.println("Enter the employee age: ");
+
+empAge input.nextInt();
+
+empObject.numCheck (empObject);
+
+}
+
+public void numCheck (Employee empObject)
+
+System.out.println("Enter the employee ID: "); empId= input.nextInt(); if(empIdList.contains(empId))
+
+System.out.println("Already exist, Try another"); empId= input.nextInt(); empIdList.add(empId);
+
+else
+
+empIdList.add(empId); //empObject.showDisplay(empObject);
+
+Employee emp = new Employee (empName, empAge, empId); empObject.empList.add(emp);
+
+}
+
+public void showDisplay (Employee empobject){
+
+System.out.println("Employee Name for (Employee a:empList){
+
+Age
+
+Id");
+
+"+a.empAge+"
+
+"+a.empId);
+
+System.out.println(a.empName+"
